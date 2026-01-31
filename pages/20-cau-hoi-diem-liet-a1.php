@@ -31,7 +31,7 @@ $result = $stmt->get_result();
 
     <div class="container main-content">
         <!-- Hero Section -->
-        <div class="hero-section" style="background: var(--warning);">
+        <div class="hero-section">
             <h1 class="hero-title">20 Câu Hỏi Điểm Liệt A1</h1>
             <p class="hero-subtitle">Phải trả lời đúng 100% - Không được sai câu nào</p>
 
@@ -142,18 +142,18 @@ $result = $stmt->get_result();
     </div>
 
     <script>
-    function toggleInfo() {
-        const content = document.getElementById('infoContent');
-        const toggle = document.querySelector('.info-toggle i');
+        function toggleInfo() {
+            const content = document.getElementById('infoContent');
+            const toggle = document.querySelector('.info-toggle i');
 
-        if (content.style.display === 'none') {
-            content.style.display = 'block';
-            toggle.style.transform = 'rotate(180deg)';
-        } else {
-            content.style.display = 'none';
-            toggle.style.transform = 'rotate(0deg)';
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                toggle.style.transform = 'rotate(180deg)';
+            } else {
+                content.style.display = 'none';
+                toggle.style.transform = 'rotate(0deg)';
+            }
         }
-    }
     </script>
 
     <?php include '../includes/footer.php'; ?>

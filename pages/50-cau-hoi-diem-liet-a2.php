@@ -31,7 +31,7 @@ $result = $stmt->get_result();
 
     <div class="container main-content">
         <!-- Hero Section -->
-        <div class="hero-section" style="background: var(--warning);">
+        <div class="hero-section">
             <h1 class="hero-title">50 Câu Hỏi Điểm Liệt A2</h1>
             <p class="hero-subtitle">Phải trả lời đúng 100% - Không được sai câu nào</p>
 
